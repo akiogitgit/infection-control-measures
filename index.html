@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="overflow-hidden">
+            <header class="fixed z-10 bg-white/80 py-[20px] w-full">
+                <div class="flex flex-col sm:flex-row sm:justify-between w-[98%]">
+                    <div class="text-center sm:ml-[30px] text-[30px] duration-300 hover:translate-y-[-5px]">
+                        <a href="#top">感染症対策</a></div>
+                    <div class="flex ml-[16%] space-x-4 mt-[10px] text-gray-800 text-[18px]">
+                        <a href="#top" class="duration-300 hover:translate-y-[-5px]">トップ</a>
+                        <a href="#mask" class="duration-300 hover:translate-y-[-5px]">その１</a>
+                        <a href="#home" class="duration-300 hover:translate-y-[-5px]">その２</a>
+                        <a href="#env" class="duration-300 hover:translate-y-[-5px]">その３</a>
+                        <a href="#wash" class="duration-300 hover:translate-y-[-5px]">その４</a>
+                        <a href="#ventilation" class="duration-300 hover:translate-y-[-5px]">その５</a>
+
+                    </div>
+                </div>
+            </header>
+
+            <body>
+                <section id="top" class="img1 w-full h-[100vh] bg-fixed bg-cover bg-no-repeat bg-center text-black"
+                    style="background-image: url('https://source.unsplash.com/g1Kr4Ozfoac')">
+                        <h2 class="mx-[20px] py-[30px] bg-white/80 translate-y-[40vh] text-[30px] md:text-[50px] text-center">
+                            日常生活で気を付けること
+                        </h2>
+                        <div class="relative translate-y-[60vh] m-auto">
+                            <a href="#mask" id="arrow">
+                                <p
+                                    class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-[100px] w-[100px] border border-2 border-white rounded-full duration-300">
+                                </p>
+                                <p
+                                    class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-[40px] w-[2px] bg-white duration-300">
+                                </p>
+                                <p
+                                    class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-[40px] w-[2px] bg-white origin-bottom rotate-[40deg] scale-y-75 duration-300">
+                                </p>
+                                <p
+                                    class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] h-[40px] w-[2px] bg-white origin-bottom rotate-[-40deg] scale-y-75 duration-300">
+                                </p>
+                                <style>
+                                    #arrow:hover p:nth-child(1){
+                                        background-color: white;
+                                    }
+                                    #arrow:hover p:nth-child(2){
+                                        background-color: black;
+                                    }
+                                    #arrow:hover p:nth-child(3){
+                                        background-color: black;
+                                    }
+                                    #arrow:hover p:nth-child(4){
+                                        background-color: black;
+                                    }
+                                </style>
+                            </a>
+                    </div>
+                </section>
+
+                <section id="mask" class="w-full h-[100vh] bg-fixed bg-cover bg-center"
+                    style="background-image: url('https://source.unsplash.com/eGjHhmC_3ww')">
+                    <div
+                        class="text-box bg-white/80 text-black translate-y-[40vh] text-center mx-[20px] p-[20px] sm:w-[400px] sm:m-0 sm:py-[60px] sm:px-[40px] sm:text-left">
+                        <h2 class="text-[30px] mb-[20px]">常にマスクを着用</h2>
+                        <p>会話の際にはいつでもマスクをつけて、会食の際は「静かなマスク会食」を心がけましょう。</p>
+                    </div>
+                </section>
+
+                <section id="home" class="w-full h-[100vh] bg-fixed bg-cover bg-center"
+                    style="background-image: url('https://source.unsplash.com/NIKl5WwL-RE')">
+                    <div
+                        class="text-box2 bg-white/80 text-black translate-y-[40vh] text-center mx-[20px] p-[20px] sm:w-[400px] sm:m-0 sm:py-[60px] sm:px-[40px] sm:text-left sm:float-right">
+                        <h2 class="text-[30px] mb-[20px]">不要不急の外出を控える</h2>
+                        <p>生活維持に必要な外出（食料品・生活用品の買い物や通院、散歩など）以外は控えるようにしましょう。</p>
+                    </div>
+                </section>
+
+                <section id="env" class="w-full h-[100vh] bg-fixed bg-cover bg-center"
+                    style="background-image: url('https://source.unsplash.com/Y5PXVs1LpY4')">
+                    <div
+                        class="text-box2 bg-white/80 text-black translate-y-[40vh] text-center mx-[20px] p-[20px] sm:w-[400px] sm:m-0 sm:py-[60px] sm:px-[40px] sm:text-left">
+                        <h2 class="text-[30px] mb-[20px]">感染しやすい環境を避ける</h2>
+                        <p>「換気の悪い密閉空間」
+                        「人が密集している」
+                        「近距離での会話や発声が行われる」
+                        このような条件が重なった「3つの密」をできるだけ避けて、感染リスクを下げる
+                        ことを徹底しましょう</p>
+                    </div>
+                </section>
+
+                <section id="wash" class="w-full h-[100vh] bg-fixed bg-cover bg-center"
+                    style="background-image: url('https://source.unsplash.com/x7Lyx8Yyvug')">
+                    <div
+                        class="text-box2 bg-white/80 text-black translate-y-[40vh] text-center mx-[20px] p-[20px] sm:w-[400px] sm:m-0 sm:py-[60px] sm:px-[40px] sm:text-left sm:float-right">
+                        <h2 class="text-[30px] mb-[20px]">こまめな手洗いを徹底</h2>
+                        <p>外出先からの帰宅時や調理の前後、食事前などこまめに手を洗いましょう。</p>
+                    </div>
+                </section>
+
+                <section id="ventilation" class="w-full h-[100vh] bg-fixed bg-cover bg-center"
+                    style="background-image: url('https://source.unsplash.com/Fd9tUmRBJzk')">
+                    <div
+                        class="text-box2 bg-white/80 text-black translate-y-[40vh] text-center mx-[20px] p-[20px] sm:w-[400px] sm:m-0 sm:py-[60px] sm:px-[40px] sm:text-left">
+                        <h2 class="text-[30px] mb-[20px]">換気</h2>
+                        <ul>
+                            <li>
+                                ・風の流れができるよう、2方向の窓を数分間、全開にしましょう。
+                            </li>
+                            <li>
+                                ・換気する回数は、1時間に2回以上行いましょう。
+                            </li>
+                            <li>
+                                ・窓が1つしかない場合でも、入口のドアを開けて、空気が流れるようにしましょう。
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </body>
+
+            <footer class="bg-gray-800 w-full">
+            </footer>
+        </div>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </body>
+</html>
